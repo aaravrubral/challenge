@@ -31,8 +31,8 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ghcr.io/${{ github.repository_owner }}/BlackrockChallenge:latest .
+            -t ghcr.io/${{ github.repository_owner }}/blackrock-challenge:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/BlackrockChallenge:latest
+          docker push ghcr.io/${{ github.repository_owner }}/blackrock-challenge:latest
