@@ -1,0 +1,6 @@
+server:
+  port: 5477
+
+spring:
+  application:
+    name: ChallenegeApplication
